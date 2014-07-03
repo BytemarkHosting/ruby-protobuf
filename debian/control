@@ -1,0 +1,23 @@
+Source: ruby-protobuf
+Section: ruby
+Priority: optional
+Maintainer: Patrick J Cherry <patrick@bytemark.co.uk>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.7)
+Standards-Version: 3.9.4
+Vcs-Git: https://github.com/BytemarkHosting/ruby-protobuf
+Vcs-Browser: https://github.com/BytemarkHosting/ruby-protobuf
+Homepage: https://code.google.com/p/ruby-protobuf/
+XS-Ruby-Versions: all
+
+Package: ruby-protobuf
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: Google Protocol Buffers serialization for Ruby
+ Implementation of protobuf in ruby, capable of
+ .
+   * Compiling .proto file to ruby script
+ .
+   * Parsing the binary wire format for protocol buffer
+ .
+   * Serializing data to the binary wire format for protocol buffer

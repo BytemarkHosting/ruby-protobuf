@@ -1,0 +1,5 @@
+ruby-protobuf (0.4.11-1) stable; urgency=medium
+
+  * Initial release
+
+ -- Patrick J Cherry <patch@bytemark.co.uk>  Thu, 03 Jul 2014 09:57:54 +0100
